@@ -1,0 +1,44 @@
+.taskFilter-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+
+    .active-button{
+        color: var(--active-button);
+
+        &:hover{
+            color: var(--active-button);
+        }
+    }
+
+    span, button{
+        color: var(--taskFilter-color)
+    }
+
+    button{
+        background-color: var(--backgroundColor-task);
+        border: 0;
+        font-weight: bold;
+    }
+
+    button:hover{
+        color: var(--button-hover);
+        cursor: pointer;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    li{
+        list-style: none;
+        color: var(--very-dark-grey);
+        padding: 5px;
+        button{
+            font-weight: 1000;
+        }
+    }
+}

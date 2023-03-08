@@ -1,0 +1,26 @@
+:root{
+    --background-image: url("../../public/img/bg-desktop-dark.jpg");
+    --font: "Josefin Sans", sans-serif;
+    --backgroundColor-page: hsl(235, 21%, 11%);
+    --backgroundColor-task: hsl(235, 24%, 19%);
+    --font-color: hsl(234, 39%, 85%);
+    --very-dark-grey: hsl(237, 14%, 26%);
+    --dark-grey: hsl(233, 14%, 35%);
+    --button-hover: hsl(236, 33%, 92%);
+    --active-button: hsl(220, 98%, 61%);
+    --taskItem-border: hsl(237, 14%, 26%);
+    --taskFilter-color: hsl(233, 14%, 35%);
+    --cross-color: hsl(233, 14%, 35%);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--backgroundColor-page);
+    font-family: var(--font);
+    font-weight: 500;
+}

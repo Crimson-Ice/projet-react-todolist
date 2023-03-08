@@ -1,0 +1,41 @@
+.page-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .header-page{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 300px;
+        background-image: var(--background-image);
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: cover;
+
+        .header-content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .wrapper{
+                display: flex;
+                justify-content: space-between;
+                width: 500px;
+                color: #fff;
+                letter-spacing: 10px;
+                margin: 30px 0;
+            }
+        }
+    }
+    .main-page{
+        position: relative;
+        bottom: 40px;
+    }
+    .footer-page{
+        span{
+            color: var(--taskFilter-color);
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.taskItem-content{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 60px;
+    background-color: var(--backgroundColor-task);
+    border-bottom: 1px solid var(--taskItem-border);
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+
+        span{
+            background-color: var(--backgroundColor-task);
+            color: var(--font-color);
+            font-family: var(--font);
+            font-size: 15px;
+        }
+
+        .task-complete{
+            text-decoration: line-through;
+            color: var(--dark-grey);
+        }
+    }
+    .button-delete{
+        display: flex;
+        justify-content: center;
+        button{
+            background-color: transparent;
+            border: none;
+            i{
+                margin: 20px;
+                color: var(--cross-color);
+            }
+        }
+
+        button:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.taskItem-content:hover{
+    cursor: pointer;
+}

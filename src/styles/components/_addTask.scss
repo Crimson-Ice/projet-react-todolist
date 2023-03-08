@@ -1,0 +1,27 @@
+.addTask-content{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    background-color: var(--backgroundColor-task);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.25);
+
+    input{
+        height: 30px;
+        background-color: var(--backgroundColor-task);
+        border: 0;
+        color: var(--font-color);
+        font-family: var(--font);
+        font-size: 15px;
+    }
+
+    input::placeholder{
+        color: hsl(234, 11%, 52%);
+    }
+
+    input:focus{
+        outline: 0;
+    }
+
+}

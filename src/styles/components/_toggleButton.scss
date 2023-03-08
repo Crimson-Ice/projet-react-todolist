@@ -1,0 +1,18 @@
+
+.toggleButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: var(--backgroundColor-task);
+    border: 1px solid var(--dark-grey);
+    margin: 10px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.checkButton {
+    background: linear-gradient(140deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    color: #fff;
+}
